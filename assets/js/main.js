@@ -30,18 +30,17 @@
 			}, 100);
 		});
 
-	// Forms.
+	// Forms.		
 
 		// Hack: Activate non-input submits.
 			$('form').on('click', '.submit', function(event) {
-
-				// Stop propagation, default.
-					event.stopPropagation();
-					event.preventDefault();
-
-				// Submit form.
-					$(this).parents('form').submit();
-
+				$(location).attr('href', 'mailto:antonio.medeiros.fernandes.id@gmail.com?subject='
+								+ encodeURIComponent(document.forms["email"]["name"].value)
+								+ "&body=" 
+								+ encodeURIComponent(document.forms["email"]["message"].value)
+		);
+		console.log("oi");		
+		console.log(document.forms["email"]["message"].value);
 			});
 
 	// Sidebar.
@@ -186,5 +185,5 @@
 
 				}
 			});
-
+	
 })(jQuery);

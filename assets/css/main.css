@@ -3241,11 +3241,11 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #0C2D48;
+			background-color: #350c48;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #145DA0;
+			background-color: #2a004d;
 		}
 
 		.wrapper.style2 {
@@ -3363,6 +3363,10 @@ input, select, textarea {
 		body.is-preload .wrapper.fade > .inner {
 			opacity: 0;
 		}
+
+	.curriculum {
+		min-height: 0;
+	}
 
 /* Header */
 
@@ -3510,11 +3514,12 @@ input, select, textarea {
 
 		#footer > .inner a:hover {
 			border-bottom-color: transparent;
+			color: white;
 		}
 
 	#footer > .inner .menu {
 		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.15);
+		color: rgb(191, 173, 202);
 	}
 
 	#header + #wrapper + #footer > .inner {
