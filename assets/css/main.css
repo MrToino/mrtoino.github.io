@@ -2219,6 +2219,7 @@ input, select, textarea {
 				}
 
 		}
+		
 
 /* Form */
 
@@ -2996,7 +2997,7 @@ input, select, textarea {
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22.5em;
+		min-height: 22em;
 	}
 
 		body.is-ie .spotlights > section {
@@ -3465,7 +3466,7 @@ input, select, textarea {
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
-		margin-left: 18em;
+		margin-left: 13em;
 	}
 
 		@media screen and (max-width: 1280px) {
