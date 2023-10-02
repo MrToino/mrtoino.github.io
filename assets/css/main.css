@@ -3470,7 +3470,7 @@ input, select, textarea {
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
-		margin-left: 13em;
+		margin-left: 21%;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3540,7 +3540,7 @@ input, select, textarea {
 		text-align: right;
 		font-size: large;
 		top: 0;
-		width: 18em;
+		width: 21%;
 		z-index: 10000;
 	}
 
